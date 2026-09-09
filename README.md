@@ -15,12 +15,19 @@ This repository provides compact, transparent implementations of selected comput
 - `chapter06_case_studies/` — executable versions of selected worked case studies
 - `data/` — small example datasets created for the companion code
 - `docs/` — repository documentation and book-to-code mapping
+- `tests/` — automated smoke tests and full example test runner
 
 ## Book release and reproducibility
 
 The release tagged `v1.0.0-book` will correspond to the software snapshot associated with the published book. The live GitHub repository may later receive corrections, documentation improvements, and additional examples.
 
-A permanent Zenodo archival DOI will be added before publication of the book.
+The archived Version 1.0 software release associated with the book has been assigned the following reserved Zenodo DOI:
+
+**DOI:** [10.5281/zenodo.22668105](https://doi.org/10.5281/zenodo.22668105)
+
+This DOI is reserved for the book-associated software release and will become publicly registered when the corresponding Zenodo record is published.
+
+Readers seeking exact reproducibility of the book-associated software should use the archived Version 1.0 release rather than a later development version of the repository.
 
 ## Installation
 
@@ -28,18 +35,11 @@ Recommended Python version: **3.10 or newer**.
 
 ```bash
 python -m venv .venv
+
 # Windows
-.venv\\Scripts\\activate
+.venv\Scripts\activate
+
 # macOS/Linux
 source .venv/bin/activate
 
 pip install -r requirements.txt
-```
-
-## Citation
-
-The final software citation and Zenodo DOI will be added in `CITATION.cff` and in Appendix H of the book before the `v1.0.0-book` release is frozen.
-
-## License
-
-The companion source code is released under the MIT License. The Springer book itself is not covered by this software license.
