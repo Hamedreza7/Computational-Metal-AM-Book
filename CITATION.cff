@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this companion software, please cite the archived software release and the corresponding Springer book."
+title: "Companion Computational Codes for Computational Metal Additive Manufacturing"
+type: software
+authors:
+  - family-names: "Hosseinzadeh"
+    given-names: "Hamed"
+version: "0.1.0-dev"
+license: MIT
+abstract: >-
+  Educational source-code implementations accompanying the Springer book
+  Computational Metal Additive Manufacturing: Advanced Multiphysics and
+  AI-Enhanced Simulation. The repository includes selected examples in
+  multiphysics simulation, non-fusion metal AM, AI/PINNs, DfAM, fatigue,
+  reduced-order modeling, and digital-twin workflows.
