@@ -1,15 +1,46 @@
 cff-version: 1.2.0
-message: "If you use this companion software, please cite the archived software release and the corresponding Springer book."
-title: "Companion Computational Codes for Computational Metal Additive Manufacturing"
+
+message: "If you use this companion software, please cite the archived software release and, where appropriate, the corresponding Springer book."
+
+title: "Companion Computational Codes for Computational Metal Additive Manufacturing: Advanced Multiphysics and AI-Enhanced Simulation"
+
 type: software
+
 authors:
   - family-names: "Hosseinzadeh"
     given-names: "Hamed"
-version: "0.1.0-dev"
+    orcid: "https://orcid.org/0000-0001-8946-1062"
+
+version: "1.0.0"
+
+doi: "10.5281/zenodo.22668105"
+
+repository-code: "https://github.com/Hamedreza7/Computational-Metal-AM-Book"
+
 license: MIT
+
 abstract: >-
-  Educational source-code implementations accompanying the Springer book
+  Companion educational source-code implementations for the Springer book
   Computational Metal Additive Manufacturing: Advanced Multiphysics and
-  AI-Enhanced Simulation. The repository includes selected examples in
-  multiphysics simulation, non-fusion metal AM, AI/PINNs, DfAM, fatigue,
-  reduced-order modeling, and digital-twin workflows.
+  AI-Enhanced Simulation. The repository provides transparent and executable
+  implementations of selected computational workflows presented in the book,
+  including fusion-based multiphysics modeling, non-fusion metal additive
+  manufacturing, neural-network surrogates, Physics-Informed Neural Networks,
+  AI-enhanced physics-based modeling, design optimization, reduced-order
+  modeling, fatigue assessment, and digital-twin case studies. The examples
+  are intended as educational and research starting points that connect
+  governing equations and modeling concepts to reproducible computational
+  workflows. They are not validated production software for safety-critical
+  engineering applications.
+
+keywords:
+  - "metal additive manufacturing"
+  - "computational modeling"
+  - "multiphysics simulation"
+  - "laser powder bed fusion"
+  - "directed energy deposition"
+  - "binder jetting"
+  - "physics-informed neural networks"
+  - "artificial intelligence"
+  - "digital twins"
+  - "scientific computing"
