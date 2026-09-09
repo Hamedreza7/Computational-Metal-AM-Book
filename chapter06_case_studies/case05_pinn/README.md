@@ -17,4 +17,4 @@ python main.py
 ## Scope and limitations
 This is a compact educational reference implementation. It is intended to make the mathematical workflow executable and transparent; it is not a validated production solver for safety-critical engineering use.
 
-**Important:** See `../../docs/BOOK_VALIDATION_NOTES.md`. The script follows the governing PDE residual exactly as written in the chapter and reports the discrepancy with the current printed residual table.
+**Book consistency:** This implementation corresponds to the corrected Chapter 6, Case 5 formulation. The collocation-point residuals, physics loss, and summary values are consistent with the one-dimensional heat equation and the updated manuscript. The corrected residual values are approximately $-0.0790$, $-0.1117$, and $-0.0790$, with $L_r \approx 0.00832$.
