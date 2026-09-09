@@ -1,0 +1,7 @@
+quantity,value
+T_K,1200.0
+alpha0,0.35
+alpha_corrected,0.53
+source_multiplier,1.5142857142857145
+constant_step_rise_K,1.6
+AEPB_step_rise_K,2.4228571428571435

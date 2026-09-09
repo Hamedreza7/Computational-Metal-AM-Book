@@ -1,0 +1,3 @@
+model,Se_MPa,Goodman_index,margin,pass
+baseline,450.0,0.7070707070707071,0.29292929292929293,True
+AM-corrected,350.0,0.8467532467532467,0.1532467532467533,True

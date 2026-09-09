@@ -1,0 +1,10 @@
+quantity,value
+a0_MPa,-200.0
+a1_MPa_per_K,0.3
+a2_MPa_per_K_per_m,1e-05
+Tpeak_K,1450.0
+grad_K_per_m,2100000.0
+sigma_res_MPa,256.0
+sigma_m_eff_MPa,316.0
+Goodman_index,0.7761904761904762
+margin,0.2238095238095238
